@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[이름]메뉴정리"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@color/purple_200"
+        android:padding="15dp"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="3" android:columnCount="2">
+        <TextView android:gravity="right"
+            android:text="이름"
+            android:width="0dp"
+            android:layout_columnWeight="1"/>
+        <EditText android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:hint="이름입력하세요"
+            android:layout_marginLeft="20dp"/>
+        <Button android:text="전화번호"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"/>
+        <EditText android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:hint="전번입력하세요"
+            android:layout_marginLeft="20dp"/>
+        <Button android:text="성별"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"/>
+        <EditText android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:hint="성별입력하세요"
+            android:layout_marginLeft="20dp"/>
+    </GridLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="가입"/>
+</LinearLayout>

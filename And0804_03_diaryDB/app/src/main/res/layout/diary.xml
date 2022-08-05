@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:id="@+id/dp"
+        android:calendarViewShown="false"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="입력하세요"
+        android:id="@+id/edtDiary"
+        android:layout_weight="1"
+        android:background="#ff00ff"
+        android:lines="8">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnWrite"
+        android:text="새로저장"/>
+    <Button
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDel"
+        android:text="삭제하기"/>
+</LinearLayout>

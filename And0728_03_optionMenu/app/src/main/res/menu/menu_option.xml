@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/option_img1"
+        android:title="비트박스 해찬"/>
+    <item android:id="@+id/option_img2"
+        android:title="버퍼링 해찬"/>
+    <item android:id="@+id/option_img3"
+        android:title="스티커 해찬"/>
+</menu>
